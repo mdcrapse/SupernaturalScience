@@ -1,0 +1,4 @@
+///MenuQuit()
+
+game_end();
+
