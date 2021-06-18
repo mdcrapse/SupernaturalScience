@@ -27,6 +27,12 @@
             <kind>1</kind>
             <string>///init
 
+if os_browser == browser_not_a_browser {
+    instance_destroy();
+}
+
+x = floor(room_width / 2);
+
 text = "This is the web version.#The executable is recommended due to numerous issues.#(no music, web font, no fullscreen, and more)";
 
 </string>
@@ -58,9 +64,9 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_top);
 
 draw_set_colour(c_black);
-draw_text(xx, yy, text);
+draw_text(x, y, text);
 draw_set_colour(c_white);
-draw_text(xx - 1, yy - 1, text);
+draw_text(x - 1, y - 1, text);
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
