@@ -33,7 +33,7 @@ if os_browser == browser_not_a_browser {
 
 x = floor(room_width / 2);
 
-text = "This is the web version.#The executable is recommended due to numerous issues.#(no music, web font, no fullscreen, and more)";
+text = "This is the web version.#The executable is recommended due to numerous issues.#(no music, web font, no fullscreen, slower, and more)";
 
 </string>
           </argument>
