@@ -231,6 +231,7 @@
       <object>objects\oMenuButton</object>
       <object>objects\oMenuButtonPlay</object>
       <object>objects\oMenuButtonQuit</object>
+      <object>objects\oMenuWebText</object>
     </objects>
     <objects name="oTrap">
       <object>objects\oTrapLever</object>
