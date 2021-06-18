@@ -214,7 +214,7 @@ with oPlayer {
     WallmapPathFind(
         x,
         y,
-        75,
+        50,
         other.player_path,
     );
     break;
