@@ -190,6 +190,9 @@
       <script>scripts\TweenUpdate.gml</script>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fMain</font>
+  </fonts>
   <objects name="objects">
     <object>objects\oLighting_new</object>
     <object>objects\oMain</object>

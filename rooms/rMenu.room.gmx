@@ -56,7 +56,7 @@
     <instance objName="oLevelFadeFrom" x="0" y="0" name="inst_77B9CAC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMenuButtonQuit" x="96" y="160" name="inst_553FC9A3" locked="0" code="if os_browser != browser_not_a_browser {&#xA;    instance_destroy();&#xA;}&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMenuButtonPlay" x="96" y="64" name="inst_E0B186A4" locked="0" code="text = &quot;play&quot;;&#xA;on_click = MenuPlay;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oTutor" x="320" y="96" name="inst_54308E2B" locked="0" code="if os_browser == browser_not_a_browser {&#xA;    instance_destroy();&#xA;}&#xA;&#xA;x = floor(room_width / 2);&#xA;text = &quot;This is the web version.#The executable is recommended due to numerous issues. (no music, web font, no fullscreen, and more)&quot;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oTutor" x="320" y="128" name="inst_54308E2B" locked="0" code="if os_browser == browser_not_a_browser {&#xA;    instance_destroy();&#xA;}&#xA;&#xA;x = floor(room_width / 2);&#xA;text = &quot;This is the web version.#The executable is recommended due to numerous issues. (no music, web font, no fullscreen, and more)&quot;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -75,9 +75,12 @@ key_path[0, 0] = 0;
           <argument>
             <kind>1</kind>
             <string>///set font
-
-font = font_add_sprite_ext(sFont, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-+_.:'!" + '"' + "/", 1, 1);
-draw_set_font(font);
+if os_browser == browser_not_a_browser {
+    font = font_add_sprite_ext(sFont, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-+_.:'!" + '"' + "/", 1, 1);
+    draw_set_font(font);
+} else {
+    draw_set_font(fMain);
+}
 
 </string>
           </argument>
