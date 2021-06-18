@@ -51,12 +51,13 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="oMenuButton" x="96" y="96" name="inst_F69A5D49" locked="0" code="if os_browser != browser_not_a_browser {&#xA;    instance_destroy();&#xA;}&#xA;&#xA;text = &quot;toggle fullscreen&quot;;&#xA;on_click = MenuToggleFullscreen;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oMenuButton" x="96" y="96" name="inst_F69A5D49" locked="0" code="if os_browser != browser_not_a_browser {&#xA;    instance_destroy();&#xA;}&#xA;&#xA;text = &quot;toggle fullscreen&quot;;&#xA;on_click = MenuToggleFullscreen;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMenuButton" x="96" y="128" name="inst_3E194E91" locked="0" code="if os_browser != browser_not_a_browser {&#xA;    instance_destroy();&#xA;}&#xA;&#xA;text = &quot;music: on&quot;;&#xA;on_click = MenuToggleMusic;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oLevelFadeFrom" x="0" y="0" name="inst_77B9CAC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMenuButtonQuit" x="96" y="160" name="inst_553FC9A3" locked="0" code="if os_browser != browser_not_a_browser {&#xA;    instance_destroy();&#xA;}&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMenuButtonPlay" x="96" y="64" name="inst_E0B186A4" locked="0" code="text = &quot;play&quot;;&#xA;on_click = MenuPlay;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oMenuButtonPlay" x="96" y="64" name="inst_E0B186A4" locked="0" code="if os_browser != browser_not_a_browser {&#xA;    instance_destroy();&#xA;}&#xA;&#xA;text = &quot;play&quot;;&#xA;on_click = MenuPlay;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMenuWebText" x="320" y="96" name="inst_01AF9245" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oMenuWebPlay" x="288" y="64" name="inst_DFBE4AAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
