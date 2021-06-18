@@ -148,10 +148,13 @@ if enabled &amp;&amp; room != menu_room {
             <kind>1</kind>
             <string>///toggle menu
 
-if room != rMenu {
-    enabled = !enabled;
-    with oMenuParent {
-        enabled = other.enabled;
+// does nothing on web platforms
+if os_browser == browser_not_a_browser {
+    if room != rMenu {
+        enabled = !enabled;
+        with oMenuParent {
+            enabled = other.enabled;
+        }
     }
 }
 
