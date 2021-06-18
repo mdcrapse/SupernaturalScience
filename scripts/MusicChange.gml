@@ -1,6 +1,11 @@
 ///MusicChange(sound_id)
 /// Changes the song to the specified song.
 /// Use `-1` for no song.
+/// Does nothing on web platforms.
+
+if os_browser != browser_not_a_browser {
+    exit;
+}
 
 global._music_next_song = argument0;
 if global._music_on {

@@ -1,5 +1,10 @@
 ///MusicTurnOn()
 /// Turns on (higher volume) the music if it was previously off.
+/// Does nothing on web platforms.
+
+if os_browser != browser_not_a_browser {
+    exit;
+}
 
 if !global._music_on {
     global._music_on = true;
